@@ -1,0 +1,3 @@
+D:\Project\IntProj\Source\IntProj\IntProj.Build.cs
+D:\Project\IntProj\Source\IntProj.Target.cs
+D:\Project\IntProj\Source\IntProjEditor.Target.cs

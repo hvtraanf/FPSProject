@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\IntProj.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{5EEB0F0A-E6E4-4601-9DB0-A31584E67D9A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\IntProj.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\IntProjEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{5D9D2AD1-DFF9-4BD8-9CB9-2B4AA8E6952A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\IntProj">
+      <UniqueIdentifier>{91A86079-CC7E-4802-8C07-FB07C8784CF6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\IntProj\IntProj.Build.cs">
+      <Filter>Source\IntProj</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\IntProj\IntProj.cpp">
+      <Filter>Source\IntProj</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\IntProj\IntProj.h">
+      <Filter>Source\IntProj</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\IntProj\IntProjCharacter.cpp">
+      <Filter>Source\IntProj</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\IntProj\IntProjCharacter.h">
+      <Filter>Source\IntProj</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\IntProj\IntProjGameMode.cpp">
+      <Filter>Source\IntProj</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\IntProj\IntProjGameMode.h">
+      <Filter>Source\IntProj</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\IntProj\IntProjHUD.cpp">
+      <Filter>Source\IntProj</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\IntProj\IntProjHUD.h">
+      <Filter>Source\IntProj</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\IntProj\IntProjProjectile.cpp">
+      <Filter>Source\IntProj</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\IntProj\IntProjProjectile.h">
+      <Filter>Source\IntProj</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\IntProj\Public">
+      <UniqueIdentifier>{8a72b5bb-8166-4b66-91f8-b1973188ad14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\IntProj\Private">
+      <UniqueIdentifier>{93e00d06-ad3d-4e73-9056-e8e6ba58e4e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\IntProj\Public\FPSObjectiveActor.h">
+      <Filter>Source\IntProj\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\IntProj\Private\FPSObjectiveActor.cpp">
+      <Filter>Source\IntProj\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
